@@ -75,7 +75,7 @@ cd ~
 check_directory aasdk "aasdk"
 if [ $? == 1 ]
 then
-    git clone -b development https://github.com/abraha2d/aasdk aasdk
+    git clone -b development https://github.com/opencardev/aasdk aasdk
     error "Couldn't clone AASDK!"
 fi
 
