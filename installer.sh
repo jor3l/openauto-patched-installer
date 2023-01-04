@@ -105,7 +105,7 @@ cd ~
 check_directory openauto "openauto"
 if [ $? == 1 ]
 then
-    git clone -b development https://github.com/humeman/openauto openauto
+    git clone -b development https://github.com/jor3l/openauto openauto
     error "Couldn't clone openauto!"
 fi
 
